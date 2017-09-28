@@ -1,0 +1,30 @@
+[submodule "src/github.com/ant0ine/go-json-rest"]
+	path = src/github.com/ant0ine/go-json-rest
+	url = https://github.com/ant0ine/go-json-rest.git
+[submodule "src/github.com/jinzhu/gorm"]
+	path = src/github.com/jinzhu/gorm
+	url = https://github.com/jinzhu/gorm.git
+[submodule "src/github.com/dazjones/go-tournament"]
+	path = src/github.com/dazjones/go-tournament
+	url = https://github.com/dazjones/go-tournament
+[submodule "src/github.com/mattn/go-sqlite3"]
+	path = src/github.com/mattn/go-sqlite3
+	url = https://github.com/mattn/go-sqlite3
+[submodule "src/golang.org/x/crypto"]
+	path = src/golang.org/x/crypto
+	url = https://go.googlesource.com/crypto
+[submodule "src/golang.org/x/net"]
+	path = src/golang.org/x/net
+	url = https://go.googlesource.com/net
+[submodule "src/golang.org/x/oauth2"]
+	path = src/golang.org/x/oauth2
+	url = https://go.googlesource.com/oauth2
+[submodule "src/golang.org/x/sync"]
+	path = src/golang.org/x/sync
+	url = https://go.googlesource.com/sync
+[submodule "src/gopkg.in/yaml.v2"]
+	path = src/gopkg.in/yaml.v2
+	url = https://gopkg.in/yaml.v2
+[submodule "src/github.com/jinzhu/inflection"]
+	path = src/github.com/jinzhu/inflection
+	url = https://github.com/jinzhu/inflection

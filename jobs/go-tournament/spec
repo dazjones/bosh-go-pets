@@ -1,0 +1,11 @@
+---
+name: go-pets
+
+templates:
+    bin/ctl.sh: bin/ctl.sh
+
+packages:
+    - golang
+    - go-pets
+
+properties: {}

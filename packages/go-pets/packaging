@@ -1,0 +1,15 @@
+#!/bin/bash
+
+set -e
+
+REPO_NAME=github.com/dazjones/go-pets
+
+export GOROOT=$(readlink -nf /var/vcap/packages/golang)
+export GOPATH=${BOSH_INSTALL_TARGET}
+export PATH=$GOROOT/bin:$PATH
+
+mkdir ${GOPATH}/src
+cp -a * ${GOPATH}/src
+
+go build -o ${GOPATH}/bin/go-pets ${REPO_NAME}/main.go
+
