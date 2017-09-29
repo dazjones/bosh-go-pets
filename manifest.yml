@@ -1,8 +1,8 @@
 ---
-name: bosh-go-pets
+name: go-pets
 
 releases:
-- name: go-pets
+- name: bosh-go-pets
   version: latest
 
 stemcells:
