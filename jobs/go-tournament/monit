@@ -1,5 +1,5 @@
 check process go-pets
-    with pidfile /var/vcap/sys/run/bosh-hello-world/pid
+    with pidfile /var/vcap/sys/run/bosh-go-pets/pid
     start program "/var/vcap/jobs/go-pets/bin/ctl.sh start"
     stop program "/var/vcap/jobs/go-pets/bin/ctl.sh stop"
     group vcap

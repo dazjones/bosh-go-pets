@@ -1,5 +1,5 @@
 ---
-name: go-pets
+name: bosh-go-pets
 
 releases:
 - name: go-pets
@@ -23,7 +23,7 @@ instance_groups:
   instances: 1
   jobs:
   - name: go-pets
-    release: go-pets
+    release: bosh-go-pets
     properties: {}
   vm_type: g1-small
   stemcell: default
